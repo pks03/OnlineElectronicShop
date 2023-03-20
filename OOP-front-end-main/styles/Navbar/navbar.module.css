@@ -1,0 +1,65 @@
+.main{
+    height: 6vh;
+    width: 100vw;
+
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav{
+    margin: 0 2vh 0 2vh;
+    font-size: 1.8vh;
+    transition: 0.2s;
+    color: rgb(136, 136, 136);
+}
+.navOn{
+    margin: 0 2vh 0 2vh;
+    font-size: 1.8vh;
+    transition: 0.2s;
+    color: white;
+}
+.img{
+    margin: 0 2vh 0 2vh;
+}
+.nav:hover{
+    color: white;
+    cursor: pointer;
+}
+.nav:focus{
+    color: white;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+    color: black;
+    width: auto;
+    height: auto;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    border-radius: 5px;
+    background: white;
+    margin-right: 5vh;
+    transition: 0.2s;
+    margin-left: -9.8vh;
+}
+.login:hover, .login2:hover{
+    background: rgb(193, 193, 193);
+}
+.login2{
+    color: black;
+    width: auto;
+    height: auto;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    border-radius: 5px;
+    background: white;
+    margin-right: 5vh;
+    transition: 0.2s;
+    margin-left: -2.8vh; 
+}

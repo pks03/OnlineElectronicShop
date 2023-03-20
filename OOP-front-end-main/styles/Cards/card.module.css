@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vh;
+    border-bottom: 1px solid black;
+    margin: 5vh 5vh 5vh 5vh;
+}
+/* .container:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+} */
+.img{
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.paynow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    margin: 2vh;
+    font-size: 2.6vh;
+    border-bottom: 1px solid white;
+}
+.disc{
+    text-align: center;
+    margin: 0 1vh 2vh 1vh;
+}
+.cost{
+    font-size: 2vh;
+}
+.paynow{
+    margin: 4vh 2vh 5vh 2vh;
+}
+.buy{
+    width: auto;
+    padding: 1vh 2vh 1vh 2vh;
+    height: 5vh;
+    background: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white    ;
+    transition: 0.3s;
+}
+.buy2{
+    width: auto;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 5px;
+    height: 5vh;
+    background: black;
+    border-left: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.3s;
+}
+.buy:hover, .buy2:hover{
+    background: rgb(61, 61, 61);
+    cursor: pointer;
+}
+.name:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}

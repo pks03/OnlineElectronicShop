@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    overflow-y: auto;
+    width: 100vw;
+    background: rgb(25, 25, 25);
+    margin-top: -9vh;
+}
+.box{
+    width: 70vh;
+    height: 80vh;
+    background: #000;
+    margin-top: 12vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.roles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 4vh;
+}
+.role{
+    margin: 2vh;
+    width: 10vh;
+    border-radius: 5px;
+    height: 5vh;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.tit{
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+.input {
+    outline: none;
+    background-color: white;
+    border: none;
+    height: 3em;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inputblock{
+    margin-bottom: 3vh;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    width: auto;
+    height: auto;
+    padding: 2vh 4vh 2vh 4vh;
+    margin-top: 4vh;
+    border-radius: 5px;
+    font-size: 2.5vh;
+    transition: 0.2s;
+}
+.submit:hover{
+    background: rgb(195, 195, 195);
+    cursor: pointer;
+}
+.role:hover{
+    background: rgb(195, 195, 195);
+        cursor: pointer;
+}
+.roleOn{
+        margin: 2vh;
+            width: 10vh;
+            border-radius: 5px;
+            height: 5vh;
+    background: rgb(60, 60, 60);            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+}
+.signup{
+    color: white;
+    margin-top: 4vh;
+    transition: 0.2s;
+}
+.signup:hover{
+    color: gray;
+    cursor: pointer;
+}
